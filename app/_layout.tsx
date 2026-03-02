@@ -23,7 +23,7 @@ export default function RootLayout() {
           <Stack.Screen name="(auth)" />
           <Stack.Screen name="(tabs)" />
           <Stack.Screen
-            name="memory/id"
+            name="memory/[id]"
             options={{
               //Presentasi modal - slide dari bawah
               // Ini adalah pattern native yang umum di mobile
